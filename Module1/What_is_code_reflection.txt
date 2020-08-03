@@ -20,7 +20,7 @@ In your own words explain data and how it relates to code. (100 Words max)
 Our world is all about data, everything a piece of information, even the hardware that we use has some data coded into memories to describe the characteristics, functions or specifications of each device. Its relationship with code is that a good programmer will need to know how to make use of data in order to write efficient programs that can work without going beyond the computer set limitations. 
 What is a framework? (150 words max) 
 Framework is a base pre-package set of software that a programmer can use as a head start in order to create an application based on the language that the framework package is about. I.e .NET is a Microsoft Framework that can be use to create C# or ASP.NET web applications.  
-What is debugging? (150 words max) 
+What is debugging? (150 words max)? 
 Debugging is  the practice of finding what is breaking a program. It could be a new set of code added, a new function interfering with others, a typo or just a hardware software incompatibility.
 Now, with more of an understanding of what code is, why do you want to learn how to code? (500 words max) 
 I would say I chose the path to become a coder, because it is the way to unlock my future and coding is and always will be a life saver. Coding is getting more and more in demand and it feels like it is not stopping any time soon. There is always a new language and new careers asking for experiences even in a new language like Python. 
