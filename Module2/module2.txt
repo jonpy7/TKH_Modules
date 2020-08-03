@@ -1,0 +1,22 @@
+Ex2:
+1) We are going to make two files 1 is a README File which will add text and titles to
+our github repo.
+
+2) We will create a module2.txt file in the Module 2 folder in it you will write in your
+own words the answer to the following 3 questions:
+What is Git and how is it different than github
+	Git is a System for managing computer files creation and versioning. It allows one to have the ability to have the like of a time machine to track and step into the different changes applied to a code.
+
+Github on the other hand, is a remote and local repository service based on the Git system to host files for the purpose of accessing them via internet from anywhere. Because it is based on Git anyone on a team can access, clone and contribute to commit changes to a public code or application.
+
+b) Why use the terminal
+	Terminal is faster than using the graphic interface and it is best practice for programmers to learn and make use communicating to the machine through shell by using the command lines.
+
+c) Explain 3 benefits version control in your own words
+	1. Ability to revert back to the original
+	2. Ability to review and verify the different changes
+	3. Ability to contribute to the code to enhance without damaging the previous release nor the original first version of the code.
+
+3) Create a new branch Module2, check into it and push the new files.
+
+4) Merge Module2 into Master.
