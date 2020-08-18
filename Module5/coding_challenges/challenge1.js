@@ -7,6 +7,9 @@
 // [“Westly Snipes”, “Nicholas Cage”, “Nasir Jones”, “Sean Carter”, “Sean Combs”,
 // “Michael Jordan”, “Patrick Ewing”]
 
+
+//CodePen: https://codepen.io/jperalta7/pen/RwaaWqd
+
 // Challenge 1
 // First Name - Last Name
 

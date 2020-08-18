@@ -2,6 +2,8 @@
 // Juan Peralta 08/20
 // Enter a score to get a grade letter. from 0 to 100.
 
+//Report Card: CodePen
+//https://codepen.io/jperalta7/pen/bGpVXKa
 //Variable grade = input
 const grade = this.parseInt(prompt("What is your grade:"));
 

@@ -3,6 +3,8 @@
 // use the console.log( ) method. However you should be skipping every 4 numbers, so you
 // would be logging 4, 8, 12, 16, etc, etc
 
+//Codepen: https://codepen.io/jperalta7/pen/poygEVK
+
 for (i=4; i<=156; i=i+4) {
   console.log(i);
 }
