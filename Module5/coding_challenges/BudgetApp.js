@@ -1,6 +1,8 @@
 // Budgeting App
 //Juan Peralta 08/20
 
+//CodePen: https://codepen.io/jperalta7/pen/xxVwvXo
+
 // Variables
 const income = this.parseFloat(prompt("Weekly Income:"));
 const foodCost = this.parseFloat(prompt("Food Cost:"));
