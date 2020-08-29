@@ -1,0 +1,412 @@
+<!doctype html>
+<title>Lean Business Model</title>
+<style>
+    body {
+        background:#ccc;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .content { 
+        font-size: 16px;
+
+    }
+    a {
+        color: rgb(68, 12, 12) ;
+    }
+
+    h2 {
+        color: rgba(255, 255, 255, 0.829);
+    }
+
+    .content-description {
+        background: #fff;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        padding-left: 1.5em;
+        padding-bottom: 0.5em;
+        color: rgb(88, 82, 82);
+       
+    }
+
+    .content-description h3 {
+        padding-top: 0.5em;
+    }
+
+  .grid {
+    display: block;
+    }
+  .grid2 {
+    display: block;
+
+    }
+  .box1 {
+    color: white;
+    font-size: 1.5vh;
+    padding: 10px;
+    background:darkorchid;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 10px;
+    }
+   .box4 {
+    color: white;
+    font-size: 1.5vh;
+    padding: 5px;
+    background: orange;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 10px;
+    }
+   .box8 {
+    color: white;
+    font-size: 1.5vh;
+    padding: 5px;
+    background: orangered;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 10px;
+    }
+   .box3 {
+    color: white;
+    font-size: 1.5vh;
+    padding: 10px;
+    background: green;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 10px;
+    }
+   .box5 {
+    color: white;
+    font-size: 1.5vh;
+    padding: 5px;
+    background: rgb(170, 218, 60);
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 10px;
+    }
+.box9 {
+    color: white;
+    font-size: 1.5vh;
+    padding: 5px;
+    background: turquoise;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 10px;
+    }
+  .box2 {
+    color: white;
+    font-size: 1.5vh;
+    padding: 10px;
+    background: rgb(16, 171, 223);
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 10px;    
+    }
+   .box7 {
+    color: white;
+    font-size: 1.5vh;
+    padding: 10px;
+    background: blue;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 10px;
+    }
+   .box6 {
+    color: white;
+    font-size: 1.5vh;
+    padding: 10px;
+    background: darkcyan;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 10px;
+    }
+  @media screen and (min-width: 576px) {
+    .grid {
+      display: grid;
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-columns: repeat(5, 1fr);
+      grid-auto-flow: column;
+      grid-gap: 10px;
+      }
+
+    .box1 {
+      margin: 0;
+      }
+    .box1:nth-child(1) {
+      grid-row: span 12;
+      }
+
+    .box4 {
+      margin: 0;
+      grid-row: span 6;
+      }
+    .box8 {
+      margin: 0;
+      grid-row: span 6;
+      }
+
+    .box3 {
+      margin: 0;
+      grid-row: span 12;
+      }
+    .box3:nth-child(1) {
+      grid-row: span 12;
+      }
+    .box5 {
+      margin: 0;
+      grid-row: span 6;
+      }
+    .box9 {
+      margin: 0;
+      grid-row: span 6;
+      }
+
+    .box2 {
+      margin: 0;
+      grid-row: span 12;
+      }
+
+
+    }
+
+    @media screen and (min-width: 576px) {
+
+    .grid2 {
+      display: grid;
+      grid-template-rows: repeat(1, 1fr);
+      grid-template-columns: repeat(2, 1fr);
+      grid-auto-flow: column;
+      grid-gap: 10px;
+      }
+      .box7 {
+      margin: 10;
+      grid-row: span 6;
+      /* grid-column: auto; */
+      /* width: auto; */
+      grid-gap: 10px;
+      } 
+    .box6 {
+      margin: 10;
+      /* grid-column: auto; */
+      grid-row: span 6;
+      }
+ 
+
+    }
+</style>
+<h2>Problem Description</h2>
+<div class="content-description">
+
+    <p>
+        <h3>
+            Community Problem 
+        </h3> 
+        
+        
+       <p>
+           Street Parking and Alternate Street Cleaning. It will affect people that work from home or travel via public transportation. So, they don't use the car very often, which means that the car sits for longer period of times and they sometimes may forget to move the car first to avoid a parking ticket and second to allow the scrubbing to be completed the day schedule for street cleaning.  
+       </p>
+        <p>
+            With a technology, it should be possible to help users to get alerts when to move their cars and even integrate a social network inside for drivers to alert others and even offer to watch or move their cars. 
+        </p>
+        <p>
+            The Technology on its initial phase is intended to find open spot in real time crowd sourced by other drivers that can answer in real time if a spot is still available and to post if they see some spots available. 
+        </p>
+        <p>
+            With the use of Street databases, the system can summarize and suggest where and when to move to another place before the upcoming street cleaning.  
+        </p>
+        <p>
+            Also, it can make use of trend to advise where there are usually more spots available at a reasonable walking or biking distance that can be set by the users. 
+        </p>
+    </p>
+</div>
+
+<div class="content-description">
+    <h3>
+    Technology Description 
+    </h3>
+    <p>
+    Smart Street Parking Club – It is a Mobile Responsive Web Application using Technologies like HTML 5, CSS3, JAVASCRIPT AND MYSQL, Public APIs and other. 
+    </p>
+    <p>
+    The application will use GPS location systems to locate the parking spot and where last parked and provide directions to find an open parking spot. 
+    </p>
+    <p>
+    The application will allow the end user to have a member account that will be stored in a database automatically to save current parking location and offer a map as main area. It will have a summarized menu icon on the top right or left side and featured buttons bar at the bottom. 
+    </p>
+    <p>
+    It will display street parking locations and street cleaning and suspension it will use public API from the Department of Transportation (DOT). 
+    </p>
+</div>
+<div>
+    <h2>Lean Business Canvas </h2>
+</div>
+<main class="grid">
+  <div class="box1"><h4>
+    PROBLEM
+  </h4>
+      <div class="content">
+        <h5>
+            Top 3 Problems:
+        </h5>
+        <p>
+            <ol>
+                <li> Problems finding street parking. </li>
+                <li> Forgetting to move the car to avoid a parking ticket.  </li>
+                <li> Unable to move the car when traveling, working at the office or just very busy the street cleaning day.   </li>
+            </ol>
+        </p>
+    </div>
+  </div> <!--Box 1 -->
+
+  <div class="box4"> <h4>
+
+      SOLUTION
+  </h4>
+     <div class="content">
+        <h5>
+            Top 3 Features:
+        </h5>
+        <p>
+            <ol>
+                <li>Mobile Responsive Web Application. </li>
+                <li>Will use GPS location systems to locate parking spots. </li>
+                <li>Social Parking Interaction with others. Located Public/Private Chat/Announcements. </li>
+            </ol>
+        </p>
+     </div> 
+  </div> <!-- Box 4-->
+  <div class="box8">
+      <h4>
+          KEY METRICS
+
+      </h4>
+    <div class="content">
+        <h5>
+            Key Activities Measured:
+        </h5>
+        <p>
+          <ul>
+              <li>Number of Available Spots in a 5-mile radius.</li>
+              <li>Number of Available parking days/hours before street cleaning.</li>
+              <li>Number of Available Trusted Parkers, Drivers to Assist Moving the car.</li>
+          </ul>
+        </p>
+     </div> 
+  </div> <!-- Box 8-->
+  <div class="box3"> <h4>
+      
+      UNIQUE VALUE PROPOSITION
+  </h4>
+    <div class="content">
+        <h5>
+            Uniqueness:
+        </h5>
+       
+        <p>The worth of this proposal is to add to the network valid parkers to help find spots when trying to park or when unavailable to move the car on street cleaning days. 
+        </p>
+     </div> 
+  </div> <!-- Box 3-->
+  <div class="box5"> <h4>
+
+      UNFAIR ADVANTAGE
+    </h4
+      
+    <div class="content">
+        <h5>
+            Patented
+        </h5>
+        <p>Integration of valet parking system.</p>
+        <p>Can't be easily copied or bought</p>
+     </div> 
+  </div> <!-- Box 5-->
+  <div class="box9">
+    <h4>
+        CHANNELS
+
+    </h4>  
+    <div class="content">
+        <h5>
+            Path to Customers:
+        </h5>
+        <p>
+           <ul>
+               <li>Social media: Instagram, Twitter, Twitch </li>
+               <li>Google AdWords</li>
+               <li>YouTube Channel </li>
+           </ul>
+
+        </p>
+     </div> 
+  </div> <!-- Box 9-->
+  <div class="box2">
+      <h4>
+
+          CUSTOMER SEGMENTS
+      </h4>
+    <div class="content">
+        <h5>
+           Target Audience:
+        </h5>
+        <p>
+            <ul>
+                <li>Car owners </li>
+                <li>Car renters </li>
+                <li>Valet and Individual Parkers </li>
+            </ul>
+        </p>
+     </div> 
+  </div> <!-- Box 2-->
+
+</main>
+<section  class="grid2" > 
+        <div class="box7"> <h4>
+
+            COST STRUCTURE
+        </h4>
+            <div class="content">
+                <h5>
+                    Key Activities Measured:
+                </h5>
+                
+                <ul>
+                    <li>Customer Acquisition Costs</li>
+                    <li>Marketing Design and Advertising Cost </li>
+                    <li>Website Hosting</li>
+                    <li>App store membership </li>
+                    <li>App store membership </li>
+                    <li>Developers for advanced features  </li>
+                </ul>
+             </div> 
+        </div> <!-- Box 7-->
+        <div class="box6"> <h4>
+
+            REVENUE STREAMS
+        </h4>
+            <div class="content">
+                <h5>
+                   Revenue Model: 
+                </h5>
+                <ul>
+                    <li>Referrals to other agents/drivers</li>
+                    <li>Ads on the lite version </li>
+                    <li>Lifetime Premium Memberships</li>
+                </ul>
+             </div> 
+        </div> <!-- Box 6-->
+</section>
+
+<section>
+    <div>
+        <h2>Problem Description and Lean Canvas Document</h2>
+        <a href="https://1drv.ms/w/s!AoCmCYjjYrmBgdR-oneWfR6k9XivnA?e=VaUAFs" target="_blank">Lean Business Canvas - Live Document</a>  
+     </div>
+    <div>
+        <h2>
+            App WireFrame
+        </h2>
+        <iframe width="1920" height="1176" src="https://xd.adobe.com/embed/14fb3fc9-aed0-4df9-adb6-c0fd1baa2365-41a8/" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+</section>
+ 
+
